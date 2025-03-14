@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+header {
+  grid-area: header;
+}
+
+portfolio-navigation {
+  grid-area: navigation;
+}
+
+portfolio-piece {
+  grid-area: content;
+  justify-self: center;
+  align-self: center;
+  height: 95%;
+  width: 95%;
+}
+
+#root {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "header content"
+    "navigation content";
+}
