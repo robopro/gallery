@@ -13,6 +13,11 @@ const projects = [
     projectName: "pederpong",
     external: true,
   },
+  {
+    title: "Cocktail Pantry",
+    projectName: "cocktail_pantry",
+    external: true,
+  },
 ];
 
 export default projects;
